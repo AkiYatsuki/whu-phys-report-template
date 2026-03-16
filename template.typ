@@ -23,6 +23,8 @@
         #newtitle
         #h(1fr)
         #page-num
+        #line(length: 100%, stroke: 1.2pt)
+        #v(0.5em)
       ]
     }
   },
