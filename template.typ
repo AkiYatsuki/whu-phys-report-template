@@ -32,6 +32,10 @@
 
   numbering: "1",
   columns: 2,
+
+  footer: context {
+    // 页脚无文本
+  }
 )
 
 #set text(font: ("Charter","Songti SC"))
@@ -45,13 +49,12 @@
 )[
   //中文标题
   #text(size: 18pt, weight: "bold")[#newtitle]
-  #v(0.8em)
+  #v(0.5em)
 
   //作者
   #text(size: 14pt, font: "Kaiti SC")[
     #name (#stuid)
   ]
-  #v(0.3em)
 
   //单位
   #text(size: 10.5pt, font: "Kaiti SC")[
@@ -70,10 +73,9 @@
     *摘要:*
     #lorem(80)
   ]
-  #v(0.5em)
   #text(weight: "bold" )[关键词: ]
   关键词1，2，3...
-  #v(1em)
+  #v(0.5em)
 ]
 
 
@@ -85,19 +87,18 @@
 )[
   //中文标题
   #text(size: 18pt, weight: "bold")[#engtitle]
-  #v(0.8em)
+  #v(0.3em)
 
   //作者
   #text(size: 14pt, font: "Times New Roman")[
     #Name (#stuid)
   ]
-  #v(0.3em)
 
   //单位
   #text(size: 10.5pt, font: "Times New Roman")[
     School of physical science and technology, Wuhan University, Wuhan, 430072, China
   ]
-  #v(1.2em)
+  #v(0.3em)
 ]
 
 // ==== 英文摘要 ====
@@ -109,11 +110,11 @@ clearance: 1.5em,
 )[
   *Abstract: *
   #lorem(70)
-  #v(0.5em)
+  \
   *Keywords: *keywords...
 
 ]
-
+#v(1em)
 // ====== 接下来的内容就交给你了！替换#lorem为你的文章吧！ =====
 
 = 引言
