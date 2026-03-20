@@ -117,9 +117,15 @@ clearance: 1.5em,
 #v(1em)
 // ====== 接下来的内容就交给你了！替换#lorem为你的文章吧！ =====
 
-= 引言
-#lorem(200)
-
+= 实验目的
+#lorem(100)@snowflakes
+= 主要实验仪器
+#lorem(100)@notebook //文献引用格式
+= 实验原理
+#lorem(100)
+= 实验内容与步骤
+#lorem(100)
+= 数据处理与表达
 #align(center + top)[
   #image("glacier.jpg", width: 60%)
 
@@ -127,11 +133,8 @@ clearance: 1.5em,
   part of the earth's climate
   system.*
 ]
-
-= 正文
-#lorem(400)@snowflakes
-= 结论
-#lorem(100)@notebook //文献引用格式
+= 实验结果分析
+#v(10em)
 
 #bibliography(
   title: "参考文献",
