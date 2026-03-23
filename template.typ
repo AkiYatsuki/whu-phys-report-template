@@ -39,7 +39,7 @@
 )
 
 #set text(font: ("Charter","Songti SC"))
-
+#set heading(numbering: "1.1")
 // ===========
 #place(
   top + center,
